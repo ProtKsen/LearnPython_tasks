@@ -1,0 +1,10 @@
+"""
+Поправьте код, чтобы выводилось число
+на 10 больше, чем введённое
+"""
+input_is_correct = False
+while not input_is_correct:
+    v = float(input('Введите число от 1 до 10: '))
+    if 1 <= v <= 10:
+        input_is_correct = True
+print(v + 10)
